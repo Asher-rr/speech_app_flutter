@@ -1,0 +1,28 @@
+name: speech_app_flutter
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.1.1
+  flutter_tts: ^3.7.0
+  shared_preferences: ^2.1.2
+  google_mlkit_text_recognition: ^0.8.1
+  camera: ^0.10.5+2
+  permission_handler: ^10.4.1
+  translator: ^0.1.7
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
